@@ -1,9 +1,12 @@
 <html>
-    <script type="text/javascript" src="file.js"></script>
+    <script type="text/javascript" src="calendar.js"></script>
 <body>
-
-Weekday days <?php echo $_GET["WDlayoff" - "<span id='WD'><span>"]; ?><br>
-Weekday VAC/PLD days <?php echo $_GET["WDVPlayoff"]; ?>
+<?php
+$x = $_GET["WDlayoff"]; 
+$y = .25; 
+$total = $x * $y;
+?>
+Weekdays <?php echo $total; ?><br>
 
 </body>
 </html>
