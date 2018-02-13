@@ -1,0 +1,48 @@
+body {
+    font-family: Verdana, sans-serif;
+    background: #000000;
+}
+.monthPre{
+    background: #eee;
+    text-align: center;
+    border: 0px solid black;
+}
+.days{
+    background: #eee;
+    text-align: center;
+    border: 0px solid black;
+    padding: 8px;
+}
+.dayNow{
+    padding: 10px;
+    background: #ddd;
+    border: 0px solid black;
+    font-family: Verdana, sans-serif;
+    color: black;
+    margin: 0;
+}
+.month{
+    padding: 8px;
+    background: #1abc9c;
+    border: 0px solid black;
+    font-family: Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+table { 
+border-spacing: 0;
+border-collapse: collapse;
+border: 0px solid black;
+background: #eee;
+}
+td{
+  
+}
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
